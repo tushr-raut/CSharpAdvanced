@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ToDo.Console.Services;
+using Newtonsoft.Json;
+using System.Collections;
+using System.IO;
 
 namespace ToDo.Console
 {
@@ -11,15 +14,17 @@ namespace ToDo.Console
     {
         static void Main(string[] args)
         {
-            ToDoService toDo = new ToDoService();
-            var result = toDo.GetList();
+            //foreach (var item in result)
+            //{
+            //    System.Console.WriteLine(item.Type);
 
-            foreach (var item in result)
-            {
-                System.Console.WriteLine(item.Id);
-                System.Console.WriteLine(item.Type);
-                System.Console.WriteLine(item.Notes);
-            }
+            //    if (item.Notes == null)
+            //        break;
+
+            //    System.Console.WriteLine(item.Notes.First().Id);
+            //    System.Console.WriteLine(item.Notes.First().Title);
+            //    System.Console.WriteLine(item.Notes.First().Description);
+            //}
 
             System.Console.ReadKey();
         }
