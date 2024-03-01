@@ -6,51 +6,51 @@ namespace ToDo.Console.Lectures.ListVsIEnumerable
 {
     class ListVsIEnumerableExamples
     {
-        static void Main(string[] args)
-        {
-            //Immediate vs deffered execution
-            //List vs IEnumerable
+        //static void Main(string[] args)
+        //{
+        //    //Immediate vs deffered execution
+        //    //List vs IEnumerable
 
-            var list = new List<int> { 1, 2, 3, 4 };
+        //    var list = new List<int> { 1, 2, 3, 4 };
 
-            var filteredList = list.Where(x => x > 2).ToList(); //Immediate
+        //    var filteredList = list.Where(x => x > 2).ToList(); //Immediate
 
-            var filtered = list.Where(x => x > 2); //deferred
+        //    var filtered = list.Where(x => x > 2); //deferred
 
-            list.Add(5);
+        //    list.Add(5);
 
-            System.Console.WriteLine("======= filteredList =======");
-            foreach (var item in filteredList)
-            {
-                System.Console.WriteLine(item);
-            }
+        //    System.Console.WriteLine("======= filteredList =======");
+        //    foreach (var item in filteredList)
+        //    {
+        //        System.Console.WriteLine(item);
+        //    }
 
-            System.Console.WriteLine("======= filtered =======");
-            foreach (var item in filtered)
-            {
-                System.Console.WriteLine(item);
-            }
-
-
-            List<int> list1 = new List<int> { 1, 2, 3, 4 };
-
-            IList<int> list2 = new List<int> { 1, 2, 3, 4 };
-
-            IEnumerable<int> list3 = new List<int> { 1, 2, 3, 4 };
-
-            Test test = new Test();
-            var res1 = test.Filter(list1);
-
-            var res2 = test.Filter(list2);
-
-            //var res3 = test.Filter(list3);
-
-            MyList mylist = new MyList();
-            var res4 = test.Filter(mylist);
+        //    System.Console.WriteLine("======= filtered =======");
+        //    foreach (var item in filtered)
+        //    {
+        //        System.Console.WriteLine(item);
+        //    }
 
 
-            System.Console.ReadKey();
-        }
+        //    List<int> list1 = new List<int> { 1, 2, 3, 4 };
+
+        //    IList<int> list2 = new List<int> { 1, 2, 3, 4 };
+
+        //    IEnumerable<int> list3 = new List<int> { 1, 2, 3, 4 };
+
+        //    Test test = new Test();
+        //    var res1 = test.Filter(list1);
+
+        //    var res2 = test.Filter(list2);
+
+        //    //var res3 = test.Filter(list3);
+
+        //    MyList mylist = new MyList();
+        //    var res4 = test.Filter(mylist);
+
+
+        //    System.Console.ReadKey();
+        //}
     }
 
     public class Test

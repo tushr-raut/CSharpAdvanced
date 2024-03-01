@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Lectures\Basics\InheritancePolymorphismExamples.cs" />
+    <Compile Include="Lectures\ExtensionMethods\ExtensionMethodExamples.cs" />
     <Compile Include="Lectures\GenericCollections\GenericCollectionExamples.cs" />
     <Compile Include="Lectures\Generics\GenericsExamples.cs" />
     <Compile Include="Lectures\ListVsIEnumerable\ListVsIEnumerableExamples.cs" />
