@@ -53,6 +53,7 @@
     <Compile Include="Lectures\ListVsIEnumerable\ListVsIEnumerableExamples.cs" />
     <Compile Include="Lectures\NonGenericCollections\NonGenericCollectionExamples.cs" />
     <Compile Include="Lectures\Basics\ValueVsReferenceTypeExamples.cs" />
+    <Compile Include="Lectures\Reflections\ReflectionExamples.cs" />
     <Compile Include="Models\ToDo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Lectures\Collections.pptx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

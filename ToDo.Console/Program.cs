@@ -8,6 +8,7 @@ using Newtonsoft.Json;
 using System.Collections;
 using System.IO;
 using ToDo.Console.Lectures.ExtensionMethods;
+using System.Reflection;
 
 namespace ToDo.Console
 {
@@ -15,17 +16,7 @@ namespace ToDo.Console
     {
         static void Main(string[] args)
         {
-            //foreach (var item in result)
-            //{
-            //    System.Console.WriteLine(item.Type);
-
-            //    if (item.Notes == null)
-            //        break;
-
-            //    System.Console.WriteLine(item.Notes.First().Id);
-            //    System.Console.WriteLine(item.Notes.First().Title);
-            //    System.Console.WriteLine(item.Notes.First().Description);
-            //}
+            
 
             System.Console.ReadKey();
         }
