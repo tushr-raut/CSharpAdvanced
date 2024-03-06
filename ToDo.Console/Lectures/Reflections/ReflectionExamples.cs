@@ -15,54 +15,54 @@ namespace ToDo.Console.Lectures.Reflections
 
     class ReflectionExamples
     {
-        static void Main(string[] args)
-        {
-            //Assembly
-            var assembly = Assembly.GetExecutingAssembly();
-            var assemblyName = assembly.FullName;
-            System.Console.WriteLine(assemblyName);
+        //static void Main(string[] args)
+        //{
+        //    //Assembly
+        //    var assembly = Assembly.GetExecutingAssembly();
+        //    var assemblyName = assembly.FullName;
+        //    System.Console.WriteLine(assemblyName);
             
-            //Types
-            var types = assembly.GetTypes();
+        //    //Types
+        //    var types = assembly.GetTypes();
 
-            foreach (var type in types)
-            {
-                if (type.Name == "TestReflection")
-                {
-                    System.Console.WriteLine(type.Name);
+        //    foreach (var type in types)
+        //    {
+        //        if (type.Name == "TestReflection")
+        //        {
+        //            System.Console.WriteLine(type.Name);
 
-                    //Objects Or instances
-                    var obj = Activator.CreateInstance(type);
+        //            //Objects Or instances
+        //            var obj = Activator.CreateInstance(type);
 
-                    var constructors = obj.GetType().GetConstructors();
+        //            var constructors = obj.GetType().GetConstructors();
 
-                    //Properties
-                    var props = obj.GetType().GetProperties();
+        //            //Properties
+        //            var props = obj.GetType().GetProperties();
 
-                    foreach (var prop in props)
-                    {
-                        var value = prop.GetValue(obj, null);
-                        System.Console.WriteLine(value);
-                    }
+        //            foreach (var prop in props)
+        //            {
+        //                var value = prop.GetValue(obj, null);
+        //                System.Console.WriteLine(value);
+        //            }
 
-                    //Methods
-                    var methods = obj.GetType().GetMethods();
+        //            //Methods
+        //            var methods = obj.GetType().GetMethods();
 
-                    foreach (var method in methods)
-                    {
-                        if (method.Name == "Print")
-                        {
-                            method.Invoke(obj, null);
-                        }
-                    }
-                }
-            }
+        //            foreach (var method in methods)
+        //            {
+        //                if (method.Name == "Print")
+        //                {
+        //                    method.Invoke(obj, null);
+        //                }
+        //            }
+        //        }
+        //    }
 
-            var nexon = GetVehicle<Tata>("Tata", "Nexon", "TTL");
-            var thar = GetVehicle<Mahindra>("Mahindra", "Thar");
+        //    var nexon = GetVehicle<Tata>("Tata", "Nexon", "TTL");
+        //    var thar = GetVehicle<Mahindra>("Mahindra", "Thar");
 
-            System.Console.ReadKey();
-        }
+        //    System.Console.ReadKey();
+        //}
 
         static IEnumerable<T> GetVehicle<T>(string manufacturer, string vehicleType, string sub = "")
         {
