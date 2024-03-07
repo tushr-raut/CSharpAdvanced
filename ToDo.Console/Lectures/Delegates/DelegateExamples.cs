@@ -65,18 +65,6 @@ namespace ToDo.Console.Lectures.Delegates
         }
     }
 
-    //Callback
-    public class Print
-    {
-        public delegate void NumDelegate(int num);
-
-        public void PrintNumbers(NumDelegate obj)
-        {
-            for (int i = 0; i < 1000; i++)
-            {
-                //Logic
-                obj(i);
-            }
-        }
+    
     }
 }
