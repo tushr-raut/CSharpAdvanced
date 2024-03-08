@@ -49,17 +49,17 @@
     <Compile Include="Lectures\Basics\InheritancePolymorphismExamples.cs" />
     <Compile Include="Lectures\Delegates\AnonymousFunctionsAndLambdas.cs" />
     <Compile Include="Lectures\Delegates\DelegateExamples.cs" />
+    <Compile Include="Lectures\Delegates\DelegatesPracticeExample.cs" />
     <Compile Include="Lectures\ExtensionMethods\ExtensionMethodExamples.cs" />
     <Compile Include="Lectures\GenericCollections\GenericCollectionExamples.cs" />
+    <Compile Include="Lectures\Delegates\FuncActionPredicateDelegates.cs" />
     <Compile Include="Lectures\Generics\GenericsExamples.cs" />
     <Compile Include="Lectures\ListVsIEnumerable\ListVsIEnumerableExamples.cs" />
     <Compile Include="Lectures\NonGenericCollections\NonGenericCollectionExamples.cs" />
     <Compile Include="Lectures\Basics\ValueVsReferenceTypeExamples.cs" />
     <Compile Include="Lectures\Reflections\ReflectionExamples.cs" />
-    <Compile Include="Models\ToDo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ToDoService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

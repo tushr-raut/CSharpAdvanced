@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ToDo.Console.Lectures.GenericCollections
+namespace AdvanceCSharp.Console.Lectures.GenericCollections
 {
     class GenericCollectionExamples
     {

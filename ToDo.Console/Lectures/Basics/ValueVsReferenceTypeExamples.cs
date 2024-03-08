@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ToDo.Console.Lectures.ValueVsReferenceTypes
+﻿namespace AdvanceCSharp.Console.Lectures.ValueVsReferenceTypes
 {
-    class ValueVsReferenceTypeExamples
+    public class ValueVsReferenceTypeExamples
     {
 		private static void _SwapByValue(MyClass myClass)
 		{
@@ -18,19 +12,19 @@ namespace ToDo.Console.Lectures.ValueVsReferenceTypes
 			myClass = new MyClass(5);
 		}
 
-		//static void Main(string[] args)
-		//{
-		//	MyClass myclass = new MyClass(4);
-		//	_SwapByValue(myclass);
-		//	System.Console.WriteLine(myclass.Value);
+        public static void Execute()
+        {
+            MyClass myclass = new MyClass(4);
+            _SwapByValue(myclass);
+            System.Console.WriteLine(myclass.Value);
 
-		//	MyClass myclass1 = new MyClass(4);
-		//	_SwapByRef(ref myclass1);
-		//	System.Console.WriteLine(myclass1.Value);
+            MyClass myclass1 = new MyClass(4);
+            _SwapByRef(ref myclass1);
+            System.Console.WriteLine(myclass1.Value);
 
-		//	System.Console.ReadLine();
-		//}
-	}
+            System.Console.ReadLine();
+        }
+    }
 
 	public class MyClass
 	{

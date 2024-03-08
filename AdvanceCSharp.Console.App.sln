@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Console", "ToDo.Console\ToDo.Console.csproj", "{94069D6F-3634-45BB-8D33-E3AA44928E4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvanceCSharp.Console", "ToDo.Console\AdvanceCSharp.Console.csproj", "{94069D6F-3634-45BB-8D33-E3AA44928E4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

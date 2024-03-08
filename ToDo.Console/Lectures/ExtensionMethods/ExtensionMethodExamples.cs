@@ -1,35 +1,35 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace ToDo.Console.Lectures.ExtensionMethods
+namespace AdvanceCSharp.Console.Lectures.ExtensionMethods
 {
-    class Program
+    public class Program
     {
-        //static void Main(string[] args)
-        //{
-        //    int num = 10;
+        public static void Execute()
+        {
+            int num = 10;
 
-        //    var res2 = num.Increment();
+            var res2 = num.Increment();
 
-        //    int num2 = 100;
+            int num2 = 100;
 
-        //    var res3 = num2.Increment();
+            var res3 = num2.Increment();
 
-        //    var res4 = num2.Add(100);
+            var res4 = num2.Add(100);
 
-        //    System.Console.WriteLine(res4);
-        //    System.Console.WriteLine(res2);
+            System.Console.WriteLine(res4);
+            System.Console.WriteLine(res2);
 
-        //    var todayDate = DateTime.Now;
+            var todayDate = DateTime.Now;
 
-        //    var today = todayDate.ToDateOnly();
+            var today = todayDate.ToDateOnly();
 
-        //    var res5 = JsonConvert.SerializeObject(today);
+            var res5 = JsonConvert.SerializeObject(today);
 
-        //    System.Console.WriteLine(res5);
+            System.Console.WriteLine(res5);
 
-        //    System.Console.ReadKey();
-        //}
+            System.Console.ReadKey();
+        }
 
     }
 

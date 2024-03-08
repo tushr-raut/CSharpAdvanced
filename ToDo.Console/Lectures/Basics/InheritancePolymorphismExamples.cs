@@ -1,33 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ToDo.Console.Lectures.Basics
+﻿namespace AdvanceCSharp.Console.Lectures.Basics
 {
-    class InheritancePolymorphismExamples
+    public class InheritancePolymorphismExamples
     {
-        //static void Main(string[] args)
-        //{
-        //    A a1 = new A();
-        //    a1.Print();
+        public static void Execute()
+        {
+            A a1 = new A();
+            a1.Print();
 
-        //    B b1 = new B();
-        //    b1.Print();
+            B b1 = new B();
+            b1.Print();
 
-        //    A a2 = new B();
-        //    a2.Print();
+            A a2 = new B();
+            a2.Print();
 
-        //    //B b2 = new A();
-        //    //b2.Print();
+            //B b2 = new A();
+            //b2.Print();
 
-        //    B b3 = (B)new A();
-        //    b3.Print();
+            B b3 = (B)new A();
+            b3.Print();
 
 
-        //    System.Console.ReadLine();
-        //}
+            System.Console.ReadLine();
+        }
     }
 
     class A

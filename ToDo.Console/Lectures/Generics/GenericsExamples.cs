@@ -1,62 +1,57 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ToDo.Console.Lectures.Generics
+namespace AdvanceCSharp.Console.Lectures.Generics
 {
-    class GenericsExamples
+    public class GenericsExamples
     {
-        //static void Main(string[] args)
-        //{
-        //    System.Console.WriteLine("************************************ Generic class ************************************");
-        //    Test<string> test1 = new Test<string>();
-        //    test1.value = "Test";
+        public static void Execute()
+        {
+            System.Console.WriteLine("************************************ Generic class ************************************");
+            Test<string> test1 = new Test<string>();
+            test1.value = "Test";
 
-        //    System.Console.WriteLine(test1.value);
+            System.Console.WriteLine(test1.value);
 
-        //    Test<int> test2 = new Test<int>();
-        //    test2.value = 23;
+            Test<int> test2 = new Test<int>();
+            test2.value = 23;
 
-        //    System.Console.WriteLine(test2.value);
+            System.Console.WriteLine(test2.value);
 
-        //    System.Console.WriteLine("************************************ Generic methods ************************************");
+            System.Console.WriteLine("************************************ Generic methods ************************************");
 
-        //    int num1 = 2;
-        //    int num2 = 3;
+            int num1 = 2;
+            int num2 = 3;
 
-        //    System.Console.WriteLine("Before: {0}, {1}", num1, num2);
+            System.Console.WriteLine("Before: {0}, {1}", num1, num2);
 
-        //    Test2.Swap<int>(ref num1, ref num2);
+            Test2.Swap<int>(ref num1, ref num2);
 
-        //    System.Console.WriteLine("After: {0}, {1}", num1, num2);
+            System.Console.WriteLine("After: {0}, {1}", num1, num2);
 
-        //    System.Console.WriteLine("************************************ Generic methods: Serialize ************************************");
+            System.Console.WriteLine("************************************ Generic methods: Serialize ************************************");
 
-        //    User user = new User(101, "Tushar");
-        //    var str1 = Test2.Serialize<User>(user);
+            User user = new User(101, "Tushar");
+            var str1 = Test2.Serialize<User>(user);
 
-        //    Admin admin = new Admin(101, "Admin");
-        //    var str2 = Test2.Serialize<Admin>(admin);
+            Admin admin = new Admin(101, "Admin");
+            var str2 = Test2.Serialize<Admin>(admin);
 
-        //    var userObj = Test2.Deserialize<User>(str1);
+            var userObj = Test2.Deserialize<User>(str1);
 
-        //    System.Console.WriteLine(userObj.Id);
-        //    System.Console.WriteLine(userObj.Name);
+            System.Console.WriteLine(userObj.Id);
+            System.Console.WriteLine(userObj.Name);
 
-        //    var adminObj = Test2.Deserialize<Admin>(str2);
+            var adminObj = Test2.Deserialize<Admin>(str2);
 
-        //    System.Console.WriteLine(adminObj.Id);
-        //    System.Console.WriteLine(adminObj.Name);
+            System.Console.WriteLine(adminObj.Id);
+            System.Console.WriteLine(adminObj.Name);
 
 
-        //    System.Console.WriteLine(str1);
-        //    System.Console.WriteLine(str2);
+            System.Console.WriteLine(str1);
+            System.Console.WriteLine(str2);
 
-        //    System.Console.ReadKey();
-        //}
+            System.Console.ReadKey();
+        }
     }
 
     class Test<T>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ToDo.Console.Lectures.Delegates
+namespace AdvanceCSharp.Console.Lectures.Delegates
 {
     class DelegateExamples
     {
@@ -63,8 +63,5 @@ namespace ToDo.Console.Lectures.Delegates
         {
             return str.Count();
         }
-    }
-
-    
     }
 }
