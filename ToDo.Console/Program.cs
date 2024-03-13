@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
+using System.Xml.Linq;
 
 namespace AdvanceCSharp.Console
 {
@@ -10,7 +12,6 @@ namespace AdvanceCSharp.Console
         static void Main(string[] args)
         {
 
-            System.Console.ReadKey();
         }
     }
 }

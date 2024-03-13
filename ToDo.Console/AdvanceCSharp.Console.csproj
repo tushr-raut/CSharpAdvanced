@@ -54,6 +54,8 @@
     <Compile Include="Lectures\GenericCollections\GenericCollectionExamples.cs" />
     <Compile Include="Lectures\Delegates\FuncActionPredicateDelegates.cs" />
     <Compile Include="Lectures\Generics\GenericsExamples.cs" />
+    <Compile Include="Lectures\Linq\LinqExample01.cs" />
+    <Compile Include="Lectures\Linq\LinqExample02.cs" />
     <Compile Include="Lectures\ListVsIEnumerable\ListVsIEnumerableExamples.cs" />
     <Compile Include="Lectures\NonGenericCollections\NonGenericCollectionExamples.cs" />
     <Compile Include="Lectures\Basics\ValueVsReferenceTypeExamples.cs" />
