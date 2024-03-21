@@ -57,6 +57,12 @@
     <Compile Include="Lectures\Linq\LinqExample01.cs" />
     <Compile Include="Lectures\Linq\LinqExample02.cs" />
     <Compile Include="Lectures\ListVsIEnumerable\ListVsIEnumerableExamples.cs" />
+    <Compile Include="Lectures\Multithreading\AsyncAwaitExample.cs" />
+    <Compile Include="Lectures\Multithreading\TaskExample.cs" />
+    <Compile Include="Lectures\Multithreading\ThreadClassExample.cs" />
+    <Compile Include="Lectures\Multithreading\ThreadExample.cs" />
+    <Compile Include="Lectures\Multithreading\ThreadPoolExample.cs" />
+    <Compile Include="Lectures\Multithreading\ThreadSafetyExample.cs" />
     <Compile Include="Lectures\NonGenericCollections\NonGenericCollectionExamples.cs" />
     <Compile Include="Lectures\Basics\ValueVsReferenceTypeExamples.cs" />
     <Compile Include="Lectures\Reflections\ReflectionExamples.cs" />
